@@ -16,8 +16,8 @@ body {
     background-size: cover;
     background-position: center;  
     background-image: url('https://images.unsplash.com/photo-1520034475321-cbe63696469a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.jpeg');
-    position: relative;
-    perspective: 1000px; /* Define a perspectiva 3D
+    /* position: relative; */
+    /* perspective: 1000px; /* Define a perspectiva 3D */
     /* background-image: url('https://wallpapers.com/images/hd/high-resolution-galaxy-background-2560-x-1600-qi10b3z2ug2lhv59.jpg'); */
     
 }
@@ -47,7 +47,7 @@ body {
     z-index: -1;
     background-size: cover;
     background-clip: content-box;
-    transform: rotateX(60deg) rotateY(0deg); 
+    /* transform: rotateX(60deg) rotateY(45deg);  */
     /* Inclina a cena em 60 graus no eixo X e 0 graus no eixo Y*/
 
 }
